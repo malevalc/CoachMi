@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="900.0" prefWidth="1440.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="interface_coachmi.ChoiceController">
+    <children>
+        <Pane prefHeight="900.0" prefWidth="1440.0">
+            <children>
+                <Button id="buttonchoice" layoutX="1.0" layoutY="1.0" mnemonicParsing="false" onAction="#fais" prefHeight="448.0" prefWidth="1438.0" text="Styles de maquillage adaptés">
+               <font>
+                  <Font name="Corbel" size="107.0" />
+               </font></Button>
+                <Button id="buttonchoice" layoutX="1.0" layoutY="451.0" mnemonicParsing="false" onAction="#looks" prefHeight="448.0" prefWidth="1438.0" text="Looks pré-définis">
+               <font>
+                  <Font name="Corbel" size="107.0" />
+               </font></Button>
+            </children>
+        </Pane>
+    </children>
+</AnchorPane>

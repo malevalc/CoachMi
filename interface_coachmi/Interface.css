@@ -1,0 +1,170 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 23, 2015, 11:43:22 AM
+    Author     : deathley
+*/
+
+.root{
+    -fx-background-image: url("background.jpg");
+    -fx-background-position: center; 
+}
+
+#labeltitle {
+    -fx-font-size: 60px;
+    -fx-font-weight: bold;
+    -fx-alignment: CENTER;
+    -fx-font-family: "Corbel";
+    -fx-effect: dropshadow(gaussian ,rgba(255,255,255,0.5) , 0,0,0,1 );
+}
+
+#labelsubtitle {
+    -fx-font-size: 25px;
+    -fx-font-weight: bold;
+    -fx-font-family: "Corbel";
+    -fx-effect: dropshadow(gaussian ,rgba(255,255,255,0.5) , 0,0,0,1 );
+}
+
+#radiobutton {
+    -fx-font-size: 45px;
+    -fx-font-family: "Corbel";
+    -fx-effect: dropshadow(gaussian ,rgba(255,255,255,0.5) , 0,0,0,1 ); 
+}
+
+#buttonchoice {
+    -fx-background-color: #000000,
+        linear-gradient(#7ebcea, #2f4b8f),
+        linear-gradient(#426ab7, #263e75),
+        linear-gradient(#395cab, #223768),
+        radial-gradient(center 50% -40%, radius 200%, #395cab 45%, #223768 50%);
+    -fx-text-fill: white;
+}
+
+#buttonchoice:hover {
+    -fx-background-color: linear-gradient(#223768, #395cab);
+}
+
+#buttonval {
+    -fx-background-color: #000000,
+        linear-gradient(#7ebcea, #2f4b8f),
+        linear-gradient(#426ab7, #263e75),
+        linear-gradient(#395cab, #223768),
+        radial-gradient(center 50% -40%, radius 200%, #395cab 45%, #223768 50%);
+    -fx-background-insets: 0;
+    -fx-text-fill: white;
+    -fx-font-family: "Corbel";
+    -fx-font-size: 40px;
+}
+
+#buttonval:hover {
+    -fx-background-color: linear-gradient(#223768, #395cab);
+    -fx-font-family: "Corbel";
+    -fx-font-size: 40px;
+}
+
+#buttonOui {
+    -fx-background-color: 
+        #090a0c,
+        linear-gradient(#38424b 0%, #1f2429 20%, #191d22 100%),
+        linear-gradient(#20262b, #191d22),
+        radial-gradient(center 50% 0%, radius 100%, rgba(114,131,148,0.9), rgba(255,255,255,0));
+    -fx-background-radius: 5,4,3,5;
+    -fx-background-insets: 0,1,2,0;
+    -fx-text-fill: white;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+    -fx-text-fill: linear-gradient(white, #d0d0d0);
+    -fx-padding: 10 20 10 20;
+    -fx-font-family: "Corbel";
+    -fx-font-size: 34px;
+}
+
+#buttonOui:hover {
+    -fx-background-color:
+        linear-gradient(#191d22, #20262b);
+    -fx-font-family: "Corbel";
+    -fx-font-size: 34px;
+}
+
+#buttonNon {
+    -fx-background-color: 
+        linear-gradient(#f2f2f2, #d6d6d6),
+        linear-gradient(#fcfcfc 0%, #d9d9d9 20%, #d6d6d6 100%),
+        linear-gradient(#dddddd 0%, #f6f6f6 50%);
+    -fx-background-radius: 8,7,6;
+    -fx-background-insets: 0,1,2;
+    -fx-text-fill: black;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+    -fx-font-family: "Corbel";
+    -fx-font-size: 34px;
+}
+
+#buttonNon:hover {
+    -fx-background-color:
+        linear-gradient(#d6d6d6, #f2f2f2);
+    -fx-font-family: "Corbel";
+    -fx-font-size: 34px;
+}
+
+#buttonPlay {
+    -fx-background-color:
+        linear-gradient(#f0ff35, #a9ff00),
+        radial-gradient(center 50% -40%, radius 200%, #b8ee36 45%, #80c800 50%);
+    -fx-background-radius: 30;
+    -fx-background-insets: 0,1,2,3,0;
+    -fx-font-weight: bold;
+    -fx-padding: 10 20 10 20;
+    -fx-font-family: "Corbel";
+    -fx-font-size: 34px;
+}
+
+#buttonPlay:hover {
+    -fx-background-color:
+        linear-gradient(#a9ff00, #f0ff35);
+    -fx-font-family: "Corbel";
+    -fx-background-radius: 30;
+    -fx-font-size: 34px;
+}
+
+#buttonPause {
+    -fx-background-color: 
+        linear-gradient(#ffd65b, #e68400),
+        linear-gradient(#ffef84, #f2ba44),
+        linear-gradient(#ffea6a, #efaa22),
+        linear-gradient(#ffe657 0%, #f8c202 50%, #eea10b 100%),
+        linear-gradient(from 0% 0% to 15% 50%, rgba(255,255,255,0.9), rgba(255,255,255,0));
+    -fx-background-radius: 30;
+    -fx-background-insets: 0,1,2,3,0;
+    -fx-font-weight: bold;
+    -fx-padding: 10 20 10 20;
+    -fx-font-family: "Corbel";
+    -fx-font-size: 34px;
+}
+
+#buttonPause:hover {
+    -fx-background-color:
+        linear-gradient(#e68400, #ffd65b);
+    -fx-font-family: "Corbel";
+    -fx-font-size: 34px;
+}
+
+#combo {
+    -fx-background-color: #c3c4c4,
+        linear-gradient(#d6d6d6 50%, white 100%),
+        radial-gradient(center 50% -40%, radius 200%, #e6e6e6 45%, rgba(230,230,230,0) 50%);
+    -fx-background-radius: 30;
+    -fx-background-insets: 0,1,1;
+    -fx-text-fill: black;
+    -fx-font-family: "Corbel";
+    -fx-font-size: 20px;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 3, 0.0 , 0 , 1 );
+}
+
+#buttonCapture:hover {
+    -fx-background-color:
+        #c3c4c4,
+        linear-gradient(white 50%, #d6d6d6 100%),
+        radial-gradient(center 50% -40%, radius 200%, #e6e6e6 45%, rgba(230,230,230,0) 50%);
+}

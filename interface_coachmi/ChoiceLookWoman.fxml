@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="interface_coachmi.ChoiceLookWomanController">
+    <children>
+        <Pane prefHeight="900.0" prefWidth="1440.0" style="-fx-border-color: black;">
+            <children>
+                <Button id="buttonchoice" layoutX="1.0" layoutY="1.0" mnemonicParsing="false" onAction="#Malefique" prefHeight="448.0" prefWidth="479.0" text="Look Maléfique (Halloween)" textAlignment="CENTER" wrapText="true">
+                    <font>
+                        <Font name="Corbel" size="72.0" />
+                    </font>
+                </Button>
+                <Button id="buttonchoice" layoutX="1.0" layoutY="451.0" mnemonicParsing="false" onAction="#Petite" prefHeight="448.0" prefWidth="479.0" text="Look Petite Fille (Halloween)" textAlignment="CENTER" wrapText="true">
+                    <font>
+                        <Font name="Corbel" size="72.0" />
+                    </font>
+                </Button>
+                <Button id="buttonchoice" layoutX="481.0" layoutY="1.0" mnemonicParsing="false" onAction="#Age" prefHeight="448.0" prefWidth="479.0" text="Look Anti-Âge" textAlignment="CENTER" wrapText="true">
+                    <font>
+                        <Font name="Corbel" size="72.0" />
+                    </font>
+                </Button>
+                <Button id="buttonchoice" layoutX="481.0" layoutY="451.0" mnemonicParsing="false" onAction="#Vieux" prefHeight="448.0" prefWidth="479.0" text="Look Vieillissant" textAlignment="CENTER" wrapText="true">
+                    <font>
+                        <Font name="Corbel" size="72.0" />
+                    </font>
+                </Button>
+                <Button id="buttonchoice" layoutX="961.0" layoutY="1.0" mnemonicParsing="false" onAction="#Fatigue" prefHeight="448.0" prefWidth="479.0" text="Look Anti-Fatigue" textAlignment="CENTER" wrapText="true">
+                    <font>
+                        <Font name="Corbel" size="72.0" />
+                    </font>
+                </Button>
+                <Button id="buttonchoice" layoutX="961.0" layoutY="451.0" mnemonicParsing="false" onAction="#StVal" prefHeight="448.0" prefWidth="479.0" text="Look St-Valentin" textAlignment="CENTER" wrapText="true">
+                    <font>
+                        <Font name="Corbel" size="72.0" />
+                    </font>
+                </Button>
+            </children>
+        </Pane>
+    </children>
+</AnchorPane>

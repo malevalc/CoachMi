@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.media.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.collections.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="900.0" prefWidth="1440.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="interface_coachmi.TutoStyleWomanController">
+    <children>
+        <Pane prefHeight="900.0" prefWidth="1440.0" style="-fx-border-color: silver; -fx-background-color: black;">
+            <children>
+                <Label fx:id="lookchoisi" alignment="CENTER" layoutX="20.0" prefHeight="69.0" prefWidth="1400.0" text="Look : look choisi" textAlignment="CENTER" textFill="SILVER">
+                    <font>
+                        <Font name="Corbel" size="85.0" />
+                    </font>
+                </Label>
+                <Button id="buttonval" layoutX="1177.0" layoutY="810.0" mnemonicParsing="false" onAction="#terminer" prefHeight="76.0" prefWidth="248.0" text="TERMINER">
+                    <font>
+                        <Font name="Corbel" size="40.0" />
+                    </font>
+                </Button>
+                <ComboBox id="combo" fx:id="combo" layoutX="14.0" layoutY="96.0" onAction="#zonesel" prefHeight="43.0" prefWidth="206.0" promptText="Zones du visage" style="-fx-font: 20px Corbel;">
+                    <items>
+                        <FXCollections fx:factory="observableArrayList">
+                            <String fx:value="Peau" />
+                            <String fx:value="Yeux" />
+                            <String fx:value="Lèvres" />
+                            <String fx:value="Sourcils" />
+                            <String fx:value="Coiffure" />
+                        </FXCollections>
+                    </items>
+                </ComboBox>
+                <Pane layoutX="920.0" layoutY="117.0">
+                    <children>
+                        <Label fx:id="timeLabel" alignment="CENTER" layoutX="251.0" layoutY="320.0" prefHeight="17.0" prefWidth="123.0" text="00.00 / 00.00" textFill="SILVER">
+                            <font>
+                                <Font name="Calibri Bold" size="19.0" />
+                            </font>
+                        </Label>
+                        <Button id="buttonPlay" fx:id="playPause" alignment="CENTER" contentDisplay="CENTER" layoutX="143.0" layoutY="312.0" mnemonicParsing="false" onAction="#play_pause" prefHeight="29.0" prefWidth="25.0" textAlignment="CENTER">
+                            <graphic>
+                                <ImageView>
+                                    <image>
+                                        <Image url="@play.png" />
+                                    </image>
+                                </ImageView>
+                            </graphic>
+                        </Button>
+                        <MediaView fx:id="mediaView" fitHeight="300.0" fitWidth="500.0" layoutX="1.0" layoutY="1.0" nodeOrientation="INHERIT" />
+                    </children>
+                </Pane>
+                <ImageView fx:id="photo" cache="true" fitHeight="257.0" fitWidth="248.0" layoutX="1177.0" layoutY="521.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true" />
+                <TextArea fx:id="text" editable="false" layoutX="14.0" layoutY="188.0" prefHeight="698.0" prefWidth="373.0" promptText="Nos conseils" wrapText="true">
+                    <font>
+                        <Font name="Corbel" size="26.0" />
+                    </font>
+                </TextArea>
+            </children>
+        </Pane>
+    </children>
+</AnchorPane>

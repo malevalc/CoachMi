@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="900.0" prefWidth="1440.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="interface_coachmi.ChoiceStyleManController">
+    <children>
+        <Pane prefHeight="900.0" prefWidth="1440.0" style="-fx-border-color: black;">
+            <children>
+                <Button id="buttonchoice" fx:id="collier" alignment="CENTER" layoutX="1.0" layoutY="149.0" mnemonicParsing="false" onAction="#Collier" prefHeight="374.0" prefWidth="718.0" text="  Collier" textAlignment="CENTER" wrapText="true">
+                    <font>
+                        <Font name="Corbel" size="100.0" />
+                    </font>
+                    <graphic>
+                        <ImageView>
+                            <image>
+                                <Image url="@coll.png" />
+                            </image>
+                        </ImageView>
+                    </graphic>
+                </Button>
+                <Button id="buttonchoice" fx:id="bouc" alignment="CENTER" layoutX="1.0" layoutY="525.0" mnemonicParsing="false" onAction="#Bouc" prefHeight="374.0" prefWidth="718.0" text="  Bouc" textAlignment="CENTER" wrapText="true">
+                    <font>
+                        <Font name="Corbel" size="100.0" />
+                    </font>
+                    <graphic>
+                        <ImageView>
+                            <image>
+                                <Image url="@coub.png" />
+                            </image>
+                        </ImageView>
+                    </graphic>
+                </Button>
+                <Button id="buttonchoice" fx:id="soigne" alignment="CENTER" layoutX="721.0" layoutY="149.0" mnemonicParsing="false" onAction="#Soigne" prefHeight="374.0" prefWidth="718.0" text="  Soigné" textAlignment="CENTER" wrapText="true">
+                    <font>
+                        <Font name="Corbel" size="100.0" />
+                    </font>
+                    <graphic>
+                        <ImageView>
+                            <image>
+                                <Image url="@soig.png" />
+                            </image>
+                        </ImageView>
+                    </graphic>
+                </Button>
+                <Button id="buttonchoice" fx:id="moustache" alignment="CENTER" layoutX="721.0" layoutY="525.0" mnemonicParsing="false" onAction="#Moustache" prefHeight="374.0" prefWidth="718.0" text="  Moustache" textAlignment="CENTER" wrapText="true">
+                    <font>
+                        <Font name="Corbel" size="100.0" />
+                    </font>
+                    <graphic>
+                        <ImageView>
+                            <image>
+                                <Image url="@mous.png" />
+                            </image>
+                        </ImageView>
+                    </graphic>
+                </Button>
+                <Label fx:id="consigne" alignment="CENTER" prefHeight="153.0" prefWidth="1440.0" text="Choisissez un style de barbe" textAlignment="CENTER" wrapText="true">
+                    <font>
+                        <Font name="Corbel" size="120.0" />
+                    </font>
+                </Label>
+                <Button id="buttonval" fx:id="restart" layoutX="1046.0" layoutY="810.0" mnemonicParsing="false" onAction="#Restart" text="RETOUR AU MENU">
+                    <font>
+                        <Font name="Corbel" size="40.0" />
+                    </font>
+                </Button>
+            </children>
+        </Pane>
+    </children>
+</AnchorPane>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.media.*?>
+<?import javafx.scene.web.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="interface_coachmi.CreditsController">
+    <children>
+        <Pane prefHeight="900.0" prefWidth="1440.0" style="-fx-border-color: black;">
+            <children>
+                <Button id="buttonval" layoutX="1046.0" layoutY="810.0" mnemonicParsing="false" onAction="#restart" text="RETOUR AU MENU">
+                    <font>
+                        <Font name="Corbel" size="40.0" />
+                    </font>
+                </Button>
+                <Label layoutX="14.0" layoutY="869.0" text="© CoachMi - L’HOTE Caroline - MALEVAL Cyril - MARIE-ANGELIQUE Jordane - NATIVEL Etienne - RANDRIARIMANGA Iona" />
+                <Label layoutX="1073.0" prefHeight="71.0" prefWidth="367.0">
+                    <font>
+                        <Font name="Corbel" size="60.0" />
+                    </font>
+                </Label>
+                <Label fx:id="Number" layoutX="1073.0" prefHeight="71.0" prefWidth="367.0">
+                    <font>
+                        <Font name="Corbel" size="60.0" />
+                    </font>
+                </Label>
+                <Label layoutX="490.0" prefHeight="153.0" prefWidth="461.0" text="CoachM">
+                    <font>
+                        <Font name="Corbel Bold" size="130.0" />
+                    </font>
+                </Label>
+                <Label layoutX="937.0" prefHeight="153.0" prefWidth="34.0" text="i" textFill="RED">
+                    <font>
+                        <Font name="Corbel" size="130.0" />
+                    </font>
+                </Label>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="184.0" layoutY="162.0" prefHeight="257.0" prefWidth="1074.0" text="Laissez votre miroir réfléchir à votre place." textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font name="Corbel Bold Italic" size="100.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="89.0" layoutY="450.0" prefHeight="346.0" prefWidth="1262.0" text="CoachMi est un miroir intelligent développé par une équipe d'étudiants en 4ème année d'Ecole d'Ingénieur à l'ECE Paris. L'équipe est composée de L’HOTE Caroline, MALEVAL Cyril, MARIE-ANGELIQUE Jordane, NATIVEL Etienne et RANDRIARIMANGA Iona. Ce miroir s'inscrit dans l'initiative proposée par l'école de réaliser des Projets Pluridisciplinaires en Equipe." textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font name="Corbel Italic" size="41.0" />
+               </font>
+            </Label>
+            </children>
+        </Pane>
+    </children>
+</AnchorPane>
